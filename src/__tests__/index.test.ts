@@ -1,4 +1,4 @@
-import { bem, bemModule, join } from './index'
+import { bem, bemModule, join } from '../index'
 
 test('block', () => {
 	expect(bem('Button')).toBe('Button')
