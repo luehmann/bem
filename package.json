@@ -1,6 +1,6 @@
 {
 	"name": "@philippluehmann/bem",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Generate class names with bem",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
