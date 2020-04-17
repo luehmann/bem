@@ -1,7 +1,7 @@
 {
 	"name": "bem",
-	"version": "1.0.1",
-	"description": "",
+	"version": "1.0.0",
+	"description": "Generate class names with bem",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"scripts": {
@@ -13,8 +13,16 @@
 		"prepublishOnly": "npm test && npm run lint",
 		"preversion": "npm run lint"
 	},
-	"keywords": [],
-	"author": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/philippluehmann/bem.git"
+	},
+	"keywords": [
+		"react",
+		"css-modules",
+		"bem"
+	],
+	"author": "Philipp Lühmann",
 	"license": "ISC",
 	"devDependencies": {
 		"@types/jest": "^25.2.1",
